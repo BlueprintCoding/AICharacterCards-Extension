@@ -1,5 +1,5 @@
 {
-    "display_name": "AICC Daily Summary",
+    "display_name": "AI Character Cards Extension",
     "loading_order": 100,
     "js": "aicharactercards-extension.js",
     "css": "aicc-style.css",
