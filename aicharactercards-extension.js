@@ -353,9 +353,9 @@ function setupAICCSummaryDrawer() {
     const refreshBtn = document.createElement('button');
     refreshBtn.className = 'aicc-button';
     refreshBtn.textContent = 'Refresh Now';
-    refreshBtn.style.marginTop = '8px';
-    refreshBtn.style.padding = '4px 12px';
-    refreshBtn.style.fontSize = '12px';
+    refreshBtn.style.marginTop = '-2px';
+    refreshBtn.style.padding = '2px 6px';
+    refreshBtn.style.fontSize = '10px';
     refreshBtn.addEventListener('click', async () => {
         refreshBtn.disabled = true;
         refreshBtn.textContent = 'Refreshing...';
