@@ -313,7 +313,7 @@ function setupAICCSummaryDrawer() {
 
     settingsDrawer.innerHTML = `
         <div class="inline-drawer-toggle inline-drawer-header">
-            <b>AICC Daily Summary</b>
+            <b>AICC New Cards Daily Summary</b>
             <div class="inline-drawer-icon fa-solid interactable up fa-circle-chevron-up" tabindex="0"></div>
         </div>
         <div class="inline-drawer-content"></div>
