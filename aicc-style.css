@@ -73,10 +73,12 @@
     background-color: #3e345b;
     color: #fff;
     border-radius: .25rem;
+    border: none;
 }
 
 .aicc-button:hover {
     background-color: #2d2444;
+    border: none;
 }
 
 .aicc-separator {
