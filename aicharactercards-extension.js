@@ -351,7 +351,7 @@ function setupAICCSummaryDrawer() {
     
     // Add manual refresh button
     const refreshBtn = document.createElement('button');
-    refreshBtn.className = 'menu_button';
+    refreshBtn.className = 'aicc-button';
     refreshBtn.textContent = 'Refresh Now';
     refreshBtn.style.marginTop = '8px';
     refreshBtn.style.padding = '4px 12px';
