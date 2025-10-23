@@ -1,0 +1,106 @@
+/* Popup container */
+.aicc-popup-container {
+    max-height: 70vh;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+}
+
+.aicc-popup-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.aicc-popup-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.aicc-popup-container::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+}
+
+.aicc-popup-title {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.aicc-section {
+    margin-bottom: 0.75em;
+}
+
+.aicc-section-title {
+    margin: 0.25em 0;
+}
+
+.aicc-banner {
+    display: flex;
+    gap: 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.aicc-banner img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    display: block;
+}
+
+.aicc-banner img:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.aicc-banner img:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.aicc-summary {
+    margin: 0.5em 0;
+}
+
+.aicc-button {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 1px;
+    padding: 0.4em 1em;
+    white-space: nowrap;
+    background-color: #3e345b;
+    color: #fff;
+    border-radius: .25rem;
+}
+
+.aicc-button:hover {
+    background-color: #2d2444;
+}
+
+.aicc-separator {
+    margin: 0.75em 0;
+    border: none;
+    border-top: 1px solid #444;
+}
+
+.aicc-footnote {
+    margin-top: 0.75em;
+    margin-bottom: 0;
+    font-size: 0.9em;
+    color: #888;
+}
+
+/* Settings panel styles */
+.aicc-summary-box h4 {
+    margin-bottom: 0.5em;
+}
+
+.aicc-summary-box p {
+    margin-bottom:2px;
+}
+
+
+.aicc-summary-box .aicc-separator {
+    margin: 1.5em 0;
+}

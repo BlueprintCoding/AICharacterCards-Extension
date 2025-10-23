@@ -1,0 +1,10 @@
+{
+    "display_name": "AICC Daily Summary",
+    "loading_order": 100,
+    "js": "aicharactercards-extension.js",
+    "css": "aicc-style.css",
+    "author": "AICharacterCards",
+    "version": "1.0.0",
+    "homePage": "https://aicharactercards.com",
+    "auto_update": false
+}
