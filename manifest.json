@@ -5,6 +5,6 @@
     "css": "aicc-style.css",
     "author": "AICharacterCards",
     "version": "1.0.0",
-    "homePage": "https://aicharactercards.com",
+    "homePage": "https://github.com/BlueprintCoding/AICharacterCards-Extension.git",
     "auto_update": false
 }
