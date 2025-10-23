@@ -196,7 +196,7 @@ function buildAICCSettingsHTML() {
 
     // New cards section
     const newCardsSection = document.createElement('div');
-    newCardsSection.style.marginBottom = '1.5em';
+    newCardsSection.style.marginBottom = '.5em';
     
     const newCardsTitle = document.createElement('h4');
     newCardsTitle.textContent = '📅 Latest Cards';
