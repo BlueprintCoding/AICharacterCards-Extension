@@ -108,6 +108,7 @@ async function showNewCardsAvailablePopup() {
         const img = document.createElement('img');
         img.src = card.thumbnail;
         img.alt = card.title;
+        img.onerror = function() { this.style.display = 'none'; };
         newCardsBanner.appendChild(img);
     });
     
@@ -152,6 +153,7 @@ async function showNewCardsAvailablePopup() {
             const img = document.createElement('img');
             img.src = card.thumbnail;
             img.alt = card.title;
+            img.onerror = function() { this.style.display = 'none'; };
             trendingBanner.appendChild(img);
         });
         
@@ -213,6 +215,7 @@ function buildAICCSettingsHTML() {
         const img = document.createElement('img');
         img.src = card.thumbnail;
         img.alt = card.title;
+        img.onerror = function() { this.style.display = 'none'; };
         cardBanner.appendChild(img);
     });
 
@@ -257,6 +260,7 @@ function buildAICCSettingsHTML() {
             const img = document.createElement('img');
             img.src = card.thumbnail;
             img.alt = card.title;
+            img.onerror = function() { this.style.display = 'none'; };
             trendingBanner.appendChild(img);
         });
 
