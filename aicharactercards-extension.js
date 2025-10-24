@@ -106,7 +106,7 @@ async function showNewCardsAvailablePopup() {
     const maxCards = Math.min(aiccData.cards.length, 6);
     aiccData.cards.slice(0, maxCards).forEach((card, index) => {
         const img = document.createElement('img');
-        img.src = card.thumbnail;
+        img.src = card.thumbnail + '?src=st';
         img.alt = card.title;
         img.onerror = function() { this.style.display = 'none'; };
         newCardsBanner.appendChild(img);
@@ -151,7 +151,7 @@ async function showNewCardsAvailablePopup() {
         const maxTrending = Math.min(aiccData.trending_cards.length, 6);
         aiccData.trending_cards.slice(0, maxTrending).forEach((card, index) => {
             const img = document.createElement('img');
-            img.src = card.thumbnail;
+            img.src = card.thumbnail + '?src=st';
             img.alt = card.title;
             img.onerror = function() { this.style.display = 'none'; };
             trendingBanner.appendChild(img);
@@ -213,7 +213,7 @@ function buildAICCSettingsHTML() {
     const maxCards = Math.min(aiccData.cards.length, 6);
     aiccData.cards.slice(0, maxCards).forEach((card, index) => {
         const img = document.createElement('img');
-        img.src = card.thumbnail;
+        img.src = card.thumbnail + '?src=st';
         img.alt = card.title;
         img.onerror = function() { this.style.display = 'none'; };
         cardBanner.appendChild(img);
@@ -258,7 +258,7 @@ function buildAICCSettingsHTML() {
         const maxTrending = Math.min(aiccData.trending_cards.length, 6);
         aiccData.trending_cards.slice(0, maxTrending).forEach((card, index) => {
             const img = document.createElement('img');
-            img.src = card.thumbnail;
+            img.src = card.thumbnail + '?src=st';
             img.alt = card.title;
             img.onerror = function() { this.style.display = 'none'; };
             trendingBanner.appendChild(img);
